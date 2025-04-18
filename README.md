@@ -24,7 +24,7 @@ Before using **CyberDog Sentinel**, make sure you have the following installed:
 
 1. Clone the repo:
    
-`https://github.com/VisAwesme/CyberDog.git`
+`git clone https://github.com/VisAwesme/CyberDog.git`
 
 3. Install dependencies:
 
