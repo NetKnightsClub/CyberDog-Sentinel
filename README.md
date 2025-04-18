@@ -45,7 +45,7 @@ Before using **CyberDog Sentinel**, make sure you have the following installed:
 
 ## License 📝
 
-This project is licensed under the MIT License. See LICENSE for more information.
+This project is licensed under the [MIT](https://github.com/VisAwesme/CyberDog/blob/main/LICENSE) License. See LICENSE for more information.
 
 Made with love (and a bit of chaos) by Kel 🖤
 
