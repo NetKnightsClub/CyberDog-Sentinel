@@ -28,7 +28,7 @@ Before using **CyberDog Sentinel**, make sure you have the following installed:
 
 3. Install dependencies:
 
-- `sudo apt install nmap iproute2 net-tools` (Ubuntu/Debian/Parrot Security OS/BackBox/DEFT Linux/CAINE/Kali Linux package manager)
+- `sudo apt install nmap iproute2 net-tools` (Ubuntu/Debian/Parrot Security OS/BackBox/DEFT Linux/CAINE/Kali Linux/Raspbian package manager)
 - `sudo pacman -S nmap iproute2 net-tools` (Arch/ArchStrike/BlackArch Linux package manager)
 
 3. Run the master controller:
