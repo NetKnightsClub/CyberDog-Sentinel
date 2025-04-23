@@ -23,7 +23,7 @@ elif command -v ifconfig > /dev/null; then
     echo "🔒 MAC Address: $MAC"
     exit 0
 else
-    echo "❌ Neither 'ip' nor 'ifconfig' is available."
+    echo "❌ Neither 'ip' nor 'ifconfig' is available." # HOW IS YOUR SYSTEM THAT OLD?!?-
     echo "Install iproute2 or net-tools and try again."
     exit 1
 fi
