@@ -4,13 +4,15 @@
 # or the Computer Misuse Act 1990 in the U.K. Use responsibly and ethically.
 # The authors of this script are not responsible for any misuse or legal consequences.
 
+# Note - I reccomend running this on a Raspberry pi-5 or anything connected to your MAIN router (you may have to tweak DNS settings or, DHCP on your router idk).
+
 import subprocess
 
 # a list of known allowed MAC addresses (add your legit ones)
 # run get_my_mac.sh to find out YOUR MAC
 # commented so you dont break your system on accident, make sure to add all the MACs in your household
 """
-SAFE_MACS = ["00:11:22:33:44:55", "AA:BB:CC:DD:EE:FF"]
+SAFE_MACS = ["00:11:22:33:44:55", "AA:BB:CC:DD:EE:FF"] # add your safe MACs to this!
 
 def get_mac_table():
    result = subprocess.check_output(["arp", "-a"]).decode().splitlines()
